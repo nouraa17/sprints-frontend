@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+}
+.container{
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div > div.first > img{
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+body > div > div.second > img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}

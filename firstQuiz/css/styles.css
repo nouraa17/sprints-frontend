@@ -1,0 +1,184 @@
+/*********************************** start of public classes ************************************/
+body{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+/*********************************** end of public classes ************************************/
+
+
+/*********************************** start of first section ************************************/
+.first{
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+.first .container i{
+    font-size: 50px;
+    color: #0f0f10be;
+    margin-bottom: 5px;
+}
+.first span.first{
+    font-size: 17px;
+    color: #0f0f10be;
+}
+.first h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: "Playfair Display", serif;
+}
+.image-video {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.image-video img {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    transition: opacity 0.3s;
+}
+
+.image-video i.play-video {
+    color: #d72626be;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -50%);
+    font-size: 91px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    transition: opacity 0.3s;
+}
+
+.image-video:hover img{
+    opacity: 0.8;
+    cursor: pointer;
+}
+.image-video:hover i.play-video {
+    cursor: pointer;
+}
+
+#video-container {
+    position: relative;
+    width: 60%;
+    margin: 30px auto;
+}
+
+#video-player {
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pause-button {
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    border-radius: 25%;
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*********************************** end of first section ************************************/
+
+/*********************************** start of second section ************************************/
+
+.second{
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #e14f4f;
+    color: white;
+}
+
+.second .info{
+    margin-left: 70px;
+}
+.text-start{
+    margin: 60px auto;
+}
+.second .info .header{
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 35px;
+}
+.second .info p{
+    font-size: 17px;
+    line-height: 10px;
+    color: rgba(255, 255, 255, 0.608);
+}
+.text-start img{
+    width: 52%;
+}
+
+.form{
+    background-color: #28282a;
+    padding: 20px;
+    border-radius: 20px;
+    width:55%;
+    font-weight: 600;
+    padding-right: 30px;
+    padding-left: 30px;
+
+}
+.form .text-center h5{
+    font-size: 17px;
+    font-weight: 900;
+}
+.form .text-center h5:first-of-type{
+    margin-bottom: 40px;
+}
+.form .text-center h5:last-of-type{
+    margin-bottom: 30px;
+}
+.form button{
+    background-color: #e14f4f;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    margin-left: 30%;
+}
+
+/*********************************** end of second section ************************************/
+
+/*********************************** start of third section ************************************/
+.third{
+    margin: 100px auto;
+}
+.third .form-button{
+    background-color: #e14f4f;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
+    text-align: center;
+}
+/*********************************** end of third section ************************************/

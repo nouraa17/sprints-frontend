@@ -1,0 +1,57 @@
+img.small_image{
+    width: 60px;
+
+}
+
+h2#main_title{
+    color: green;
+}
+
+/* .red{
+    color: red;
+} */
+
+.center{
+    text-align: center;
+}
+
+h2.red{
+    background-color: bisque;
+}
+
+.grand .parent .son{
+    color :red;
+}
+
+.grand.parent.son{
+    color : gold;
+    text-align: center;
+    width: 20%;
+    height: 50%;
+    overflow: scroll;
+    /* overflow: auto; */
+}
+
+div.main{
+    width: 30%;
+    height: 100px;
+    margin-right: 3.33%;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.clear{
+    clear: left; /* clears the float from the left side  */
+}

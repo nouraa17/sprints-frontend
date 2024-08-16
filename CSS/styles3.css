@@ -1,0 +1,34 @@
+.product_details > div {
+    float: left;
+}
+
+.product_details .small_images{
+    width: 60px;
+    overflow: hidden;
+    margin-right: 30px;
+}
+
+.product_details .small_images img{
+    width: 90%;
+    height: 60px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+}
+
+.product_details .main_image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.product_details .main_image img{
+    width: 100%;
+}
+
+.product_details .content{
+    width: calc(100% - 100px -50%); /* function calc -> if we don't know how the 100px equal in percent */
+    overflow: hidden;
+    padding-left: 10px;
+}

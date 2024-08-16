@@ -1,0 +1,82 @@
+.carousel-item .content{
+    position: absolute;
+    color: white;
+    margin: auto;
+    top: 35%;
+    justify-self: center;
+}
+
+.services .row > div{
+    border: 1px solid #ddd;
+}
+.services .row .service{
+    padding: 15px;
+    position: relative;
+}
+.services .row .service svg{
+    color: green;
+}
+.services .row .service p:nth-of-type(1){
+    font-weight: bold;
+}
+/* .services .row .service p:nth-of-type(2){
+    
+} */
+.services .row .service span{
+    position: absolute;
+    color: gray;
+    top: 10px;
+    right: 2px;
+    
+}
+
+/* 
+.colors{ 
+
+} */
+
+.colors ul{ 
+    position: fixed;
+    z-index: 999;
+    top: 50%;
+}
+
+.colors ul li:nth-of-type(1){ 
+    width: 50px;
+    height: 50px;
+    background-color: darkred;
+    margin-bottom: 1px;
+}
+.colors ul li:nth-of-type(2){ 
+    width: 50px;
+    height: 50px;
+    background-color: darkgreen;
+    margin-bottom: 1px;
+}
+.colors ul li:nth-of-type(3){ 
+    width: 50px;
+    height: 50px;
+    background-color: darkblue;
+    margin-bottom: 1px;
+}
+
+/*******************************************************/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.alert-danger{
+    display: none;
+}
+
+#btn_top{
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    bottom: 10px;
+    transition: 0.5s all ;
+    opacity: 0;
+}

@@ -1,0 +1,11 @@
+git init
+git status
+git add notes.txt
+git rm --chached notes.txt
+git add .
+git branch
+git commit -m "updates"
+git branch
+git branch -M main (default)
+git remote add origin git@github.com:nouraa17/depi_first.git
+git push -u origin master

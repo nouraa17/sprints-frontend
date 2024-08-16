@@ -1,0 +1,17 @@
+.custom{
+    color:black;
+    background: #ddd;
+    border-radius: 15px;
+    font-size: 50px;
+}
+.space{
+    padding: 30px;
+    border: 2px solid blue;
+}
+.abc{
+    text-align: center;
+}
+
+img{
+    width: 200px;
+}

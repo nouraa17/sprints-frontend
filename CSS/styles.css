@@ -1,0 +1,25 @@
+body {
+    margin: 0px;
+}
+
+h1 {
+    color: blue !important;
+    color: #0000ff;
+    color: blue;
+    background-color: aqua;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0px;
+    margin: auto;  /* block display only*/
+    margin: 20px 20px;
+    margin: 20px 20px 20px 20px;
+    margin-bottom: 10%;
+    padding: 0px;
+    padding: 20px 20px;
+    padding: 20px 20px 20px 20px;
+    width: 10%;
+    max-width: 300px;
+    min-width: 100px;
+
+}

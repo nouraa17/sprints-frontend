@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexStart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"/><link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link  id="theme-link" rel="stylesheet" href="css/light.css">
+</head>
+<body>
+    <nav id="navbar" style="padding: 25px 0;" class="navbar navbar-expand-lg navbar-light bg-sm-light bg-lg-none fixed-top d-sm-block">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="imgs/logo.png" alt=""> FlexStart</a>
+            <button class="bg-none" id="pageMode"><i class="fa-solid fa-circle-half-stroke bg-none"></i></button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex order-lg-1">
+            <button class="btn btn-primary px-4 fw-bold m-0" style="background-color: #4154f1;" type="submit">Get Started</button>
+            </form>
+            <div class="collapse navbar-collapse order-lg-0" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item me-2">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#">Services</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#">Team</a>
+                </li>
+                <li class="nav-item me-2">
+                <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item dropdown me-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item dropdown me-2">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Listing Dropdown
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+                </li>
+                <li class="nav-item me-3">
+                <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            </div>
+
+        </div>
+    </nav>
+        
+    <header class="header py-5 mb-5">
+        <div class="container d-flex">
+            <div class="header-text pb-5">
+                <h1>We offer modern solutions for growing your business</h1>
+                <p class="leading pb-3">
+                    We are team of talented designers making websites with Bootstrap
+                </p>
+                <button class="btn btn-primary px-5 py-3 fw-bold m-0 first" type="submit">Get Started <i class="ri-arrow-right-line"></i></button>
+                <span class="dark_blue" style="position: relative; top: 2px;"></span>
+                <button class="watch-video ms-3"><i class="ri-play-circle-line"></i> Watch Video</button>
+            </div>
+            <div class="header-img d-none d-lg-block">
+                <img src="imgs/hero-img.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <section class="about" id="about">
+        <div class="container d-block d-lg-flex">
+            <div class="about-text">
+                <h6 class="title text-uppercase fw-bold">Who We Are</h6>
+                <h4 class="fw-bold mb-3">Expedita voluptas omnis cupiditate totam eveniet nobis sint iste. Dolores est repellat corrupti reprehenderit.</h4>
+                <p class="mb-4">Quisquam vel ut sint cum eos hic dolores aperiam. Sed deserunt et. Inventore et et dolor consequatur itaque ut voluptate sed et. Magnam nam ipsum tenetur suscipit voluptatum nam et est corrupti.</p>
+                <button class="btn btn-primary px-5 py-2 fw-bold">Read More <i class="ri-arrow-right-line"></i></button>
+            </div>
+            <div class="about-img justify-self-center">
+                <img src="imgs/about.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="values">
+        <div class="small-title text-center"><span>Our Values</span></div>
+        <div class="large-title text-center"><h2>What we value most</h2></div>
+        <div class="container d-flex">
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col mb-sm-3">
+                    <div class="card text-center ">
+                        <img src="imgs/values-1.png" class="card-img-top image-fluid" alt="..." >
+                        <div class="card-body">
+                          <h5 class="card-title">Ad cupiditate sed est odio</h5>
+                          <p class="card-text">Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-sm-3">
+                    <div class="card">
+                        <img src="imgs/values-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Voluptatem voluptatum alias</h5>
+                          <p class="card-text">Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4 col-sm-12 mb-sm-3">
+                    <div class="card">
+                        <img src="imgs/values-3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Fugit cupiditate alias nobis.</h5>
+                          <p class="card-text">Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="insights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 mb-sm-3">
+                    <div class="card small-card d-flex flex-row">
+                        <span class="icon icon1"><i class="fa-regular fa-face-smile"></i></span>
+                        <div class="card-text d-block">
+                            <p id="counter1" class="counter1">0</p>
+                            <span>Happy Clients</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-3">
+                    <div class="card small-card d-flex flex-row">
+                        <span class="icon icon2"><i class="fa-regular fa-rectangle-list"></i></span>
+                        <div class="card-text d-block">
+                            <p id="counter2" class="counter2">0</p>
+                            <span>Projects</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-3">
+                    <div class="card small-card d-flex flex-row">
+                        <span class="icon icon3"><i class="fa-solid fa-headset"></i></span>
+                        <div class="card-text d-block">
+                            <p id="counter3" class="counter3">0</p>
+                            <span>Hours Of Support</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-3">
+                    <div class="card small-card d-flex flex-row">
+                        <span class="icon icon4"><i class="fa-solid fa-user-group"></i></span>
+                        <div class="card-text d-block">
+                            <p id="counter4" class="counter4">0</p>
+                            <span>Hard Workers</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="features">
+        <div class="small-title text-center"><span>Features</span></div>
+        <div class="large-title text-center"><h2>Our Advanced Features</h2></div>
+        <div class="container d-md-flex d-sm-block">
+            <div class="features-img mb-sm-4">
+                <img src="imgs/features.png" alt="">
+            </div>
+            <div class="features-cards">
+                <div class="row row-cols-2">
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Eos aspernatur rem</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Facilis neque ipsa</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Volup amet volupt</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Rerum omnis sint</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Alias possimus</h5>
+                        </div>
+                    </div>
+                    <div class="col col-sm-6 mb-sm-3">
+                        <div class="card d-flex flex-row">
+                            <span><i class="fa-solid fa-check"></i></span>
+                            <h5>Repellendus molli</h5>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="features2">
+        <div class="container d-md-flex d-sm-block">
+            <div class="features2-list">
+                <div class="row row-cols-2">
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-solid fa-medal"></i></span>
+                            <div>
+                                <h5>Corporis voluptates sit</h5>
+                                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-solid fa-list-check"></i></span>
+                            <div>
+                                <h5>Ullamco laboris nisi</h5>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-solid fa-basketball"></i></span>
+                            <div>
+                                <h5>Labore consequatur</h5>
+                                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-solid fa-align-center"></i></span>
+                            <div>
+                                <h5>Beatae veritatis</h5>
+                                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-solid fa-bolt"></i></span>
+                            <div>
+                                <h5>Molestiae dolor</h5>
+                                <p>Et fuga et deserunt et enim. Dolorem architecto ratione tensa raptor marte</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="d-flex">
+                            <span><i class="fa-regular fa-circle-check"></i></span>
+                            <div>
+                                <h5>Explicabo consectetur</h5>
+                                <p>Est autem dicta beatae suscipit. Sint veritatis et sit quasi ab aut inventore</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="features2-img">
+                <img src="imgs/alt-features.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="small-title text-center"><span>Services</span></div>
+        <div class="large-title text-center"><h2>Check Our Services</h2></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card1 d-block justify-content-center text-center">
+                        <i class="ri-pulse-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card2 d-block justify-content-center text-center">
+                        <i class="ri-base-station-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card3 d-block justify-content-center text-center">
+                        <i class="ri-computer-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card4 d-block justify-content-center text-center">
+                        <i class="ri-shape-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card5 d-block justify-content-center text-center">
+                        <i class="ri-calendar-2-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <div class="card card6 d-block justify-content-center text-center">
+                        <i class="ri-message-2-line card-img-top"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Nesciunt Mete</h5>
+                            <p class="card-text">Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+                            <a href="#" class="btn bg-none">Read More <i class="fa-solid fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="small-title text-center"><span>Pricing</span></div>
+        <div class="large-title text-center"><h2>Check Our Affordable Pricing</h2></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12 mb-sm-5 my-sm-0">
+                    <div class="card pricing-card1 d-block justify-content-center text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Free Plan</h5>
+                            <h2 class="card-title"><sup>$</sup>0 <span>/ mo</span></h2>
+                            <h1 class="card-title"><i class="ri-box-3-line"></i></h1>
+                            <p class="card-text">Aida dere</p>
+                            <p class="card-text">Nec feugiat nisl</p>
+                            <p class="card-text">Nulla at volutpat dola</p>
+                            <p class="card-text text-decoration-line-through" style="color:#b1b1b1;">Pharetra massa</p>
+                            <p class="card-text text-decoration-line-through" style="color:#b1b1b1;">Massa ultricies mi</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 my-sm-0">
+                    <div class="card pricing-card2 d-block justify-content-center text-center">
+                        <span class="badge">Featured</span>
+                        <div class="card-body">
+                            <h5 class="card-title">Starter Plan</h5>
+                            <h2 class="card-title"><sup>$</sup>19 <span>/ mo</span></h2>
+                            <h1 class="card-title"><i class="fa-regular fa-paper-plane"></i></h1>
+                            <p class="card-text">Aida dere</p>
+                            <p class="card-text">Nec feugiat nisl</p>
+                            <p class="card-text">Nulla at volutpat dola</p>
+                            <p class="card-text">Pharetra massa</p>
+                            <p class="card-text text-decoration-line-through" style="color:#b1b1b1;">Massa ultricies mi</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 my-sm-0">
+                    <div class="card pricing-card3 d-block justify-content-center text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Business Plan</h5>
+                            <h2 class="card-title"><sup>$</sup>29 <span>/ mo</span></h2>
+                            <h1 class="card-title"><i class="ri-plane-line"></i></i></h1>
+                            <p class="card-text">Aida dere</p>
+                            <p class="card-text">Nec feugiat nisl</p>
+                            <p class="card-text">Nulla at volutpat dola</p>
+                            <p class="card-text">Pharetra massa</p>
+                            <p class="card-text">Massa ultricies mi</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12 mb-sm-5 my-sm-0">
+                    <div class="card pricing-card4 d-block justify-content-center text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Ultimate Plan</h5>
+                            <h2 class="card-title"><sup>$</sup>49 <span>/ mo</span></h2>
+                            <h1 class="card-title"><i class="ri-rocket-line"></i></h1>
+                            <p class="card-text">Aida dere</p>
+                            <p class="card-text">Nec feugiat nisl</p>
+                            <p class="card-text">Nulla at volutpat dola</p>
+                            <p class="card-text">Pharetra massa</p>
+                            <p class="card-text">Massa ultricies mi</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="f-a-q">
+        <div class="small-title text-center"><span>F.A.Q</span></div>
+        <div class="large-title text-center"><h2>Frequently Asked Questions</h2></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-12">
+                    <div class="accordion m-0" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Non consectetur a erat nam at lectus urna duis?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="accordion-item">
+                          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Dolor sit amet consectetur adipiscing elit pellentesque?
+                            </button>
+                          </h2>
+                          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <div class="accordion m-0" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                              <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                Tempus quam pellentesque nec nam aliquam sem et tortor consequat?
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+                              <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingSix">
+                              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseSix" aria-expanded="false" aria-controls="panelsStayOpen-collapseSix">
+                                Perspiciatis quod quo quos nulla quo illum ullam?
+                              </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseSix" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingSix">
+                              <div class="accordion-body">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse eaque sint eius provident aliquid consectetur doloribus hic dolor illo eos.
+                              </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="small-title text-center"><span>PORTFOLIO</span></div>
+        <div class="large-title text-center"><h2>Check our latest work</h2></div>
+        <div class="container">
+            <div class="buttons-list text-center">
+                <ul>
+                    <li>
+                        <a href="#" id="all" class="button-list active">All</a>
+                        <a href="#" id="app" class="button-list">App</a>
+                        <a href="#" id="product" class="button-list">Product</a>
+                        <a href="#" id="branding" class="button-list">Branding</a>
+                        <a href="#" id="books" class="button-list">Books</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="images-gallery">
+                <div class="row">
+                    <div class="col-4 app">
+                        <div class="image-container">
+                            <img src="imgs/app-1.jpg" alt="App Image 1">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>App 1</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 product">
+                        <div class="image-container">
+                            <img src="imgs/product-1.jpg" alt="Product Image 1">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Product 1</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 branding">
+                        <div class="image-container">
+                            <img src="imgs/branding-1.jpg" alt="Branding Image 1">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Branding 1</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 books">
+                        <div class="image-container">
+                            <img src="imgs/books-1.jpg" alt="Books Image 1">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Books 1</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 app">
+                        <div class="image-container">
+                            <img src="imgs/app-2.jpg" alt="App Image 2">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>App 2</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 product">
+                        <div class="image-container">
+                            <img src="imgs/product-2.jpg" alt="Product Image 2">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Product 2</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 branding">
+                        <div class="image-container">
+                            <img src="imgs/branding-2.jpg" alt="Branding Image 2">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Product 2</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 books">
+                        <div class="image-container">
+                            <img src="imgs/books-2.jpg" alt="Books Image 2">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Product 2</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 app">
+                        <div class="image-container">
+                            <img src="imgs/app-3.jpg" alt="App Image 3">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>App 3</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 product">
+                        <div class="image-container">
+                            <img src="imgs/product-3.jpg" alt="Product Image 3">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Product 3</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 branding">
+                        <div class="image-container">
+                            <img src="imgs/branding-3.jpg" alt="Branding Image 3">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Branding 3</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 books">
+                        <div class="image-container">
+                            <img src="imgs/books-3.jpg" alt="Books Image 3">
+                            <div class="overlay">
+                                <div class="icons d-flex"><i class="ri-search-eye-line"></i> <i class="ri-links-line"></i></div>
+                                <div class="text"><span>Books 3</span><br>Lorem ipsum, dolor sit amet consectetur</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <div class="small-title text-center"><span>Testimonials</span></div>
+        <div class="large-title text-center"><h2>What they are saying about us</h2></div>
+        <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="testimonial-item card p-5 align-items-center pb-5 justify-content-center text-center">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                      </p>
+                      <div class="profile mt-auto pb-3">
+                        <img src="imgs/testimonials-1.jpg" class="testimonial-img" alt="">
+                        <h3>Saul Goodman</h3>
+                        <h4>Ceo & Founder</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial-item card p-5 align-items-center pb-5 justify-content-center text-center">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                      </p>
+                      <div class="profile mt-auto pb-3">
+                        <img src="imgs/testimonials-2.jpg" class="testimonial-img" alt="">
+                        <h3>Jane Doe</h3>
+                        <h4>Marketing Manager</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="testimonial-item card p-5 align-items-center pb-5 justify-content-center text-center">
+                      <div class="stars">
+                        <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                      </div>
+                      <p>
+                        Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                      </p>
+                      <div class="profile mt-auto pb-3">
+                        <img src="imgs/testimonials-3.jpg" class="testimonial-img" alt="">
+                        <h3>Michael Smith</h3>
+                        <h4>Product Designer</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <div class="small-title text-center"><span>Team</span></div>
+        <div class="large-title text-center"><h2>Our hard working team</h2></div>
+        <!-- <div class="social">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div> -->
+        <div class="container">
+            <div class="row">
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="imgs/team-1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body py-5">
+                          <h5 class="card-title">Walter White</h5>
+                          <p class="lead">Chief Executive Officer</p>
+                          <p class="card-text">Velit aut quia fugit et et. Dolorum ea voluptate vel tempore tenetur ipsa quae aut. Ipsum exercitationem iure minima enim corporis et voluptate.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="imgs/team-2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body py-5">
+                          <h5 class="card-title">Sarah Jhonson</h5>
+                          <p class="lead">Product Manager</p>
+                          <p class="card-text">Quo esse repellendus quia id. Est eum et accusantium pariatur fugit nihil minima suscipit corporis. Voluptate sed quas reiciendis animi neque sapiente.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="imgs/team-3.jpg" class="card-img-top" alt="...">
+                        <div class="card-body py-5">
+                          <h5 class="card-title">William Anderson</h5>
+                          <p class="lead">CTO</p>
+                          <p class="card-text">Vero omnis enim consequatur. Voluptas consectetur unde qui molestiae deserunt. Voluptates enim aut architecto porro aspernatur molestiae modi.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-3">
+                    <div class="card text-center">
+                        <img src="imgs/team-4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body py-5">
+                          <h5 class="card-title">Amanda Jepson</h5>
+                          <p class="lead">Accountant</p>
+                          <p class="card-text">Rerum voluptate non adipisci animi distinctio et deserunt amet voluptas. Quia aut aliquid doloremque ut possimus ipsum officia.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="clients">
+        <div class="small-title text-center"><span>Clients</span></div>
+        <div class="large-title text-center"><h2>We work with best clients</h2></div>
+    </section> -->
+
+    <section class="posts">
+        <div class="small-title text-center"><span>Recent Posts</span></div>
+        <div class="large-title text-center"><h2>Recent posts form our Blog</h2></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <div class="blog-cont">
+                            <img src="imgs/blog-1.jpg" class="card-img-top" alt="...">
+                            <div class="blog-date">December 12</div>
+                        </div>
+                        
+                        <div class="card-body p-4">
+                          <h5 class="card-title">Eum ad dolor et. Autem aut fugiat debitis</h5>
+                          <p class="card-text"><i class="ri-user-3-line"></i> Julia Parker / <i class="ri-folder-2-line"></i> Politics</p>
+                          <hr>
+                          <a href="#" class="">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="blog-cont">
+                            <img src="imgs/blog-2.jpg" class="card-img-top" alt="...">
+                            <div class="blog-date">July 17</div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Eum ad dolor et. Autem aut fugiat debitis</h5>
+                            <p class="card-text"><i class="ri-user-3-line"></i> Julia Parker / <i class="ri-folder-2-line"></i> Politics </p>
+                            <hr>
+                            <a href="#" class="">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <div class="blog-cont">
+                            <img src="imgs/blog-3.jpg" class="card-img-top" alt="...">
+                            <div class="blog-date">September 05</div>
+                        </div>
+                        <div class="card-body p-4">
+                            <h5 class="card-title">Eum ad dolor et. Autem aut fugiat debitis</h5>
+                            <p class="card-text"><i class="ri-user-3-line"></i> Julia Parker / <i class="ri-folder-2-line"></i> Politics </p>
+                            <hr>
+                            <a href="#" class="">Read More <i class="ri-arrow-right-line"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="small-title text-center"><span>Contact</span></div>
+        <div class="large-title text-center"><h2>Contact Us</h2></div>
+        <div class="container d-lg-flex d-block">
+            <div class="form-cards">
+                <div class="row row-cols-2 w-50 w-sm-100">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Card link</a>
+                                <a href="#" class="card-link">Another link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="form-contact">
+                <div class="row w-50 w-sm-100">
+                    <div class="col-12">
+                        <form>
+                            <div class="mb-3">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-3">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="footer" class="footer">
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row justify-content-center text-center">
+              <div class="col-lg-6">
+                <h4 style="font-size: x-large;">Join Our Newsletter</h4>
+                <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
+                <form action="forms/newsletter.php" method="post" class="php-email-form">
+                  <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="container footer-top">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6 footer-about">
+              <a href="index.html" class="d-flex align-items-center text-decoration-none">
+                <span class="navbar-brand sitename">FlexStart</span>
+              </a>
+              <div class="footer-contact pt-3">
+                <p>A108 Adam Street</p>
+                <p>New York, NY 535022</p>
+                <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
+                <p><strong>Email:</strong> <span>info@example.com</span></p>
+              </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Useful Links</h4>
+              <ul class="p-0">
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-2 col-md-3 footer-links">
+              <h4>Our Services</h4>
+              <ul class="p-0">
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Design</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Web Development</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Product Management</a></li>
+                <li><i class="bi bi-chevron-right"></i> <a href="#">Marketing</a></li>
+              </ul>
+            </div>
+    
+            <div class="col-lg-4 col-md-12">
+              <h4>Follow Us</h4>
+              <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+              <div class="social-links d-flex">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+    
+        <div class="container copyright text-center mt-4">
+          <p>© <span>Copyright</span> <strong class="px-1 sitename">FlexStart</strong> <span>All Rights Reserved</span></p>
+        </div>
+    
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script>
+        anime({
+          targets: '#counter1',
+          innerHTML: [0, 232],
+          round: 1, // Rounds the number
+          easing: 'easeInOutQuad',
+          duration: 2000
+        });
+        anime({
+          targets: '#counter2',
+          innerHTML: [0, 521],
+          round: 1, // Rounds the number
+          easing: 'easeInOutQuad',
+          duration: 2000
+        });
+        anime({
+          targets: '#counter3',
+          innerHTML: [0, 1463],
+          round: 1, // Rounds the number
+          easing: 'easeInOutQuad',
+          duration: 2000
+        });
+        anime({
+          targets: '#counter4',
+          innerHTML: [0, 15],
+          round: 1, // Rounds the number
+          easing: 'easeInOutQuad',
+          duration: 2000
+        });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
